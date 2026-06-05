@@ -1,5 +1,6 @@
 package threadLearning.commonConcurrencyProblem.deadLock;
 
+//Solution: Always get the locks in the same order in every thread. This way, threads won’t block each other.
 public class sampleDeadLockSolutionWithOrdering {
 
 	public static Object Lock1 = new Object();
